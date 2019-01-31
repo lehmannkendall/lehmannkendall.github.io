@@ -1,0 +1,70 @@
+body{
+    background-color:#e3eefd;
+    color: #11068b;
+    font-family: Palantino, serif;
+}
+
+li{
+	text-decoration: none;
+	display:inline;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+a{
+  color: #770078;
+  font-family: Palatino, serif;
+}
+
+nav a {
+  text-decoration: none;
+  alignment: center;
+  background-color: #e3eefd;
+}
+
+.current {
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+  /*could do backgroun-color to get it to highlight */
+}
+
+/* used / slightly altered code from https://accessibility.oit.ncsu.edu/it-accessibility-at-nc-state/developers/accessibility-handbook/mouse-and-keyboard-events/skip-to-main-content/ for skip to main content lines 35-59*/
+
+.skip-main {
+  left: -999px;
+  position: absolute;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  z-index: -999;
+}
+
+a.skip-main:focus,
+a.skip-main:active {
+  color: #e3eefd;
+  background-color: #11068b;
+  left: auto;
+  top: auto;
+  width: 30%;
+  height: auto;
+  overflow: auto;
+  margin: 10px 35%;
+  padding: 5px;
+  border-radius: 15px;
+  border: 4px #ffffff;
+  text-align: center;
+  font-size: 1.2em;
+  z-index: 999;
+  font-family: Palantino, serif;
+}
+
+/* .skip-main a:link {
+  color: black;
+}
+
+.reveal a:active,
+.reveal a:focus {
+  background: yellow;
+} */
