@@ -31,7 +31,7 @@ nav a {
 
 /* used / slightly altered code from https://accessibility.oit.ncsu.edu/it-accessibility-at-nc-state/developers/accessibility-handbook/mouse-and-keyboard-events/skip-to-main-content/ for skip to main content lines 35-59*/
 
-.skip-main {
+/* .skip-main {
   left: -999px;
   position: absolute;
   top: auto;
@@ -58,13 +58,4 @@ a.skip-main:active {
   font-size: 1.2em;
   z-index: 999;
   font-family: Palantino, serif;
-}
-
-/* .skip-main a:link {
-  color: black;
-}
-
-.reveal a:active,
-.reveal a:focus {
-  background: yellow;
 } */
