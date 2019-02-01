@@ -38,7 +38,7 @@ nav a {
   width: 1px;
   height: 1px;
   overflow: hidden;
-  z-index: -999;
+  /* z-index: -999; */
 }
 
 a.skip-main:focus,
@@ -56,6 +56,6 @@ a.skip-main:active {
   border: 4px #ffffff;
   text-align: center;
   font-size: 1.2em;
-  z-index: 999;
+  /* z-index: 999; */
   font-family: Palantino, serif;
 }
