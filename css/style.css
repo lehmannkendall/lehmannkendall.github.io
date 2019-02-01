@@ -9,6 +9,31 @@ li{
 	display:inline;
 	background-color: #ffffff;
 	color: #000000;
+  float: left;
+}
+
+/* refered to https://www.w3schools.com/css/css_navbar.asp for help with navigation - ul, li a, li a:hover */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #11068b; */
+  /* background-color: #f3f3f3; */
+  background-color: #666666;
+}
+
+li a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #000000;
 }
 
 a{
@@ -19,13 +44,16 @@ a{
 nav a {
   text-decoration: none;
   alignment: center;
-  background-color: #e3eefd;
+  /* background-color: #11068b; */
+  /* background-color: #f3f3f3; */
+  background-color: #666666;
 }
 
 .current {
   text-transform: uppercase;
   font-style: italic;
   font-weight: bold;
+  background-color: #000000;
   /*could do backgroun-color to get it to highlight */
 }
 
