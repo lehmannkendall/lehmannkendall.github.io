@@ -1,6 +1,7 @@
 body{
     background-color:#e3eefd;
-    color: #11068b;
+    /* color: #11068b; */
+    color: #000000;
     font-family: Palantino, serif;
 }
 
@@ -71,7 +72,8 @@ nav a {
 a.skip-main:focus,
 a.skip-main:active {
   color: #e3eefd;
-  background-color: #11068b;
+  /* background-color: #11068b; */
+  background-color: #000000;
   left: auto;
   top: auto;
   width: 30%;
