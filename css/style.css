@@ -54,7 +54,7 @@ nav a {
   font-style: italic;
   font-weight: bold;
   background-color: #000000;
-  /*could do backgroun-color to get it to highlight */
+  text-decoration: underline #ffffff;
 }
 
 /* used / slightly altered code from https://accessibility.oit.ncsu.edu/it-accessibility-at-nc-state/developers/accessibility-handbook/mouse-and-keyboard-events/skip-to-main-content/ for skip to main content lines 35-59*/
